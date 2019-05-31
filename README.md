@@ -1,5 +1,6 @@
-# ChartJsBlazorSample
-ChartJs Blazor Sample
+# ChartJs Blazor Sample
+
+blazorserverside
 
 The project conain Pie chart sample for 
 1.  .net core 3.0 framework
