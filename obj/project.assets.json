@@ -1,11 +1,351 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "ChartJs.Blazor/0.9.1-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Browser": "3.0.0-preview-19075-0444",
+          "Microsoft.AspNetCore.Components.Build": "3.0.0-preview-19075-0444",
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/ChartJs.Blazor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ChartJs.Blazor.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components/3.0.0-preview-19075-0444": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.JSInterop": "3.0.0-preview.19074.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/3.0.0-preview-19075-0444": {
+        "type": "package"
+      },
+      "Microsoft.AspNetCore.Components.Browser/3.0.0-preview-19075-0444": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.0.0-preview-19075-0444",
+          "Microsoft.Extensions.DependencyInjection": "3.0.0-preview.19074.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Components.Browser.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Components.Browser.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Build/3.0.0-preview-19075-0444": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Analyzers": "3.0.0-preview-19075-0444"
+        },
+        "build": {
+          "build/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.0.0-preview.19074.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview.19074.2"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview.19074.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.JSInterop/3.0.0-preview.19074.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.JSInterop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.JSInterop.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ChartJs.Blazor/0.9.1-preview": {
+      "sha512": "OpyV8CgJs21z1CnbJPzDOglbG/x5itq9eHqLiX5JW7qkW9W7+6/RannLEHARaBsKxPMVLoz22wj0eiU3EXhgXA==",
+      "type": "package",
+      "path": "chartjs.blazor/0.9.1-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "chartjs.blazor.0.9.1-preview.nupkg.sha512",
+        "chartjs.blazor.nuspec",
+        "lib/netstandard2.0/ChartJs.Blazor.dll"
+      ]
+    },
+    "Microsoft.AspNetCore.Components/3.0.0-preview-19075-0444": {
+      "sha512": "2+PNKjEr9kbMMU5Ebhfo/MUj4qSHPj/FH/I2s6vrVKO94AF/yd/10ifRZhm5tf4wU5RNw1jV0kCT8kCnA5j7dQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/3.0.0-preview-19075-0444",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll",
+        "microsoft.aspnetcore.components.3.0.0-preview-19075-0444.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/3.0.0-preview-19075-0444": {
+      "sha512": "npA1R5mwnA5zL+qIimc95MzHm1s/Pn73st3m3YsH37Kmr/V7gLDdYn2VHH+lIOwahZJWXuZRRM4tYo1Nq5tsCw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.analyzers/3.0.0-preview-19075-0444",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
+        "microsoft.aspnetcore.components.analyzers.3.0.0-preview-19075-0444.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Browser/3.0.0-preview-19075-0444": {
+      "sha512": "ay9baBL2lCTNkib/nMhyEvjwHzR23htHCqp1XpHmwMUWAC4qPo+yU62kFc8+PPe9aQH4+kWajgHESdDCQQpj0Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.browser/3.0.0-preview-19075-0444",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Browser.dll",
+        "microsoft.aspnetcore.components.browser.3.0.0-preview-19075-0444.nupkg.sha512",
+        "microsoft.aspnetcore.components.browser.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Build/3.0.0-preview-19075-0444": {
+      "sha512": "R8TvbDB7clhjH+WmfDCkE747zFMGl6Dn1GJTxtsOWacc/kU5C24Xhv8LWi7HLIZJIqYOJxPtxpgvLR9Izzj1fQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.build/3.0.0-preview-19075-0444",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/netstandard1.0/Microsoft.AspNetCore.Components.Build.props",
+        "build/netstandard1.0/Microsoft.AspNetCore.Components.Build.targets",
+        "microsoft.aspnetcore.components.build.3.0.0-preview-19075-0444.nupkg.sha512",
+        "microsoft.aspnetcore.components.build.nuspec",
+        "targets/All.props",
+        "targets/All.targets",
+        "targets/RazorCompilation.targets"
+      ]
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "type": "package",
+      "path": "microsoft.csharp/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/3.0.0-preview.19074.2": {
+      "sha512": "9MNkkxYEnx1GEXCnZ5vG9+upyZR9+h9SJjo7Y/6+tIuXC7A4yAUpjFiiCDXv7Aj0vgfvCcCdk1m96cV8I2Jrag==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.0.0-preview.19074.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.0.0-preview.19074.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview.19074.2": {
+      "sha512": "/Ir8dp+VSDsGqVrZX6kP317cEYQvvRyvBV2D2bK7gROePbQHeqb+L8YvuGizcx9k6i1s6e+os6R4fqZbvV+2wQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0-preview.19074.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.0.0-preview.19074.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.JSInterop/3.0.0-preview.19074.2": {
+      "sha512": "zoMdMcN44J5Npqjlolqxhc2qrdRrxLTI4n+bE/W828cknzMC98Rj2GkYhOO4HbNk4yN0mDKHtBG4MpnoSvaLEg==",
+      "type": "package",
+      "path": "microsoft.jsinterop/3.0.0-preview.19074.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.JSInterop.dll",
+        "lib/netstandard2.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.3.0.0-preview.19074.2.nupkg.sha512",
+        "microsoft.jsinterop.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
+      "sha512": "MEt1XzSndofi4WBoGaRcMZdy9rqNtZITVZev2PTtXizcNe4csoN7U638Q73M93I/LxroBAI1IB+6HQOuklkKrw==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.0.0-preview5.19224.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.0.0-preview5.19224.8.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "ChartJs.Blazor >= 0.9.1-preview",
+      "Microsoft.NETCore.Platforms >= 3.0.0-preview5.19224.8"
+    ]
   },
   "packageFolders": {
     "/Users/azapara/.nuget/packages/": {},
@@ -51,6 +391,18 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "dependencies": {
+          "ChartJs.Blazor": {
+            "target": "Package",
+            "version": "[0.9.1-preview, )"
+          },
+          "Microsoft.NETCore.Platforms": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.0.0-preview5.19224.8, )",
+            "autoReferenced": true
+          }
+        },
         "imports": [
           "net461"
         ],

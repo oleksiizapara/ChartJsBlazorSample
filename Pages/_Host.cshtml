@@ -11,6 +11,8 @@
     <base href="~/" />
     <environment include="Development">
         <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -25,5 +27,9 @@
     <app>@(await Html.RenderComponentAsync<App>())</app>
 
     <script src="_framework/blazor.server.js"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="~/ChartJs.Blazor/ChartJsInterop.js" type="text/javascript" language="javascript"></script>
+
 </body>
 </html>
